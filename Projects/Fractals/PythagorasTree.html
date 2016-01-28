@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+body{
+	display:inline
+}
+</style>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head><body>
+<canvas id="myCanvas" width="1024" height="500" style="border:1px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>
+<br>
+<input type="submit" value="Submit" onclick="updateRectangle();"><br>
+x1
+<input type="number" value="400" id="x1"> 
+y1
+<input type="number" value="500" id="y1"> <br>
+x2
+<input type="number" value="500" id="x2"> 
+y2
+<input type="number" value="500" id="y2"> <br>
+
+<input type="range" min="0" max="20" value="10" id="reps" onchange="updateRectangle();"> depth
+<br>
+<input type="range" min="25" max ="65" id="theta2" value="45" onchange="angleSlider(this);"> theta 1 <p id="theta2Value"></p>
+<input type="range" min="25" max ="65" id="theta1" value="45" onchange="angleSlider(this);"> theta 2 <p id="theta1Value"></p>
+<a href = "https://github.com/Kartoshka/Fractals.JS"> Source Code </a>
+
+
+<script src ="js/PythagorasTree.js" type ="text/javascript"></script>
+</body></html>

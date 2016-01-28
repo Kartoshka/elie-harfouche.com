@@ -1,0 +1,36 @@
+#projectContent{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.projectWindow{
+	float:left;
+	/* magic numbers with this border size */
+	width:33.33%;
+	height:33.33%;
+	opacity:1.0;
+}
+.projectWindow .displayText{
+	position: absolute;
+	width:33.33%;
+	height:33.33%;
+	text-align: center;
+	display:none;
+	align-items:center;
+	background-color: rgba(138,117,141,0.5);
+	color:white;
+	z-index:1;
+}
+.projectWindow img{
+	position:absolute;
+	z-index:0;
+	width:33.33%;
+	height:33.33%;
+}
+.projectWindow:hover .displayText{
+	display:flex;
+}
+
+

@@ -1,0 +1,62 @@
+.centerLogo{
+	position:relative;
+	left:31%;
+	top:20%;
+	border-radius:50%;
+	width:500px;
+	height:500px;
+	width:height;
+	background-color: red;
+	display:flex;
+	align-items:center;	
+	text-align: center;
+	background: -webkit-linear-gradient(-45deg,rgba(77,160,176,0.7),rgba(211,157,56,0.7)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg,rgba(77,160,176,0.7),rgba(211,157,56,0.7)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg,rgba(77,160,176,0.7),rgba(211,157,56,0.7)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg,rgba(77,160,176,0.7),rgba(211,157,56,0.7)); /* Standard syntax */
+
+}
+
+
+
+.centerLogo .text #name{
+	position:relative;
+	left:13%;
+	font-size:65px;
+	font-weight:bolder;
+	font-family: 'Hind', sans-serif;
+	padding-bottom:1%;
+}
+
+.centerLogo .text .smallContent{
+	position:relative;
+	left:13%;
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'Hind', sans-serif;
+	padding-bottom:1%;
+
+}
+
+.centerLogo table{
+	position:relative;
+	left:35%;
+
+}
+
+.centerLogo img{
+	width:50px;
+	height:50px;
+
+}
+
+.centerLogo .text .smallContent a{
+	color:black;
+}
+
+.logos{
+	 border-spacing=10px;
+	 border-collapse: separate;
+}
+
+

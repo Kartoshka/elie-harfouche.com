@@ -1,0 +1,27 @@
+#nameHome{
+	position:absolute;
+	top:80%;
+	left:5%;
+}
+
+.name{
+	font-family: 'Hind', sans-serif;
+	font-size:75px;
+	font-style: bold;
+	color:white;
+	line-height:85%;
+
+
+}
+
+.title{
+	position:relative;
+	left:50%;
+	font-family: 'Hind', sans-serif;
+	font-size:25px;
+	font-style: bold;
+	color:white;
+	line-height:90%;
+
+
+}

@@ -1,0 +1,109 @@
+/*Drawer bg elements*/
+.drawer{
+	position:fixed;
+	width:85%;
+	top:0;
+	height:100%;
+	overflow:hidden;
+
+   -webkit-transition: left 0.5s linear;
+   -moz-transition: left 0.5s linear;
+   -o-transition: left 0.5s linear;
+   transition: left 0.5s linear;
+}
+
+.drawer .bg{
+	height:100%;
+	width:100%;
+}
+
+.drawerContent{
+	position:absolute;
+	left: 0;
+	top:0;
+	width:94.12%;
+	height:100%;
+	display:hidden;
+}
+#Home{
+	left:-0%;
+}
+#About{
+	left:5%;
+}
+#Projects{
+	left:10%;
+}
+#Contact{
+	left:15%;
+}
+
+.drawer.active .tab .vertTitle{
+	color:white;
+}
+.drawer.active .drawerContent{
+	display: inline;
+}
+
+
+/*Tab elements*/
+.tab{
+	position:absolute;
+	width:6%;
+	left:94%;
+	height:100%;
+	overflow: hidden;
+	color:black;
+}
+
+.tab img{
+	position:absolute;
+	height:100%;
+	width:1700.68%;
+	left:-1595.5%;
+	-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+    filter: grayscale(5px);
+}
+
+
+.tab:hover .tabBG{
+	cursor:pointer;
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+    filter: grayscale(2px);
+}
+
+.tab:hover .vertTitle{
+	color:white;
+}
+
+.vertTitle{
+	z-index:2;
+	position:absolute;
+	bottom:50%;
+	transform:rotate(-90deg);
+	color:grey;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	font-weight:bold;
+	
+	display:flex;
+	align-items:center;
+}
+
+.button:hover{
+	cursor:pointer;
+}
+.button{
+	z-index:3;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
